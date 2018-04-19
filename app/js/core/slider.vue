@@ -42,7 +42,6 @@
   }
 </script>
 
-<style lang="sass">
+<style lang="scss">
   @import '~swiper/dist/css/swiper.css';
-
 </style>

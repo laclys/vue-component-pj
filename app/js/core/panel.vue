@@ -23,10 +23,10 @@
     }
   }
 </script>
-<style lang="sass">
-  @import "../../css/element.scss"
-  .panel {
-    @include panel;
-  }
+<style lang="scss">
+@import "../../css/element.scss";
+.panel {
+  @include panel;
+}
 </style>
 

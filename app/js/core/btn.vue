@@ -18,10 +18,10 @@ export default {
   }
 }
 </script>
-<style lang="sass">
+<style lang="scss">
 @import "../../css/element.scss";
 .btn {
-  include btn;
+  @include btn;
 }
 </style>
 
