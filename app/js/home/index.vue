@@ -1,18 +1,14 @@
 <template lang="html">
-    <div :class="$style.home">
-        <h1>Home</h1>
-    </div>
+  <div>
+    <Header />
+  </div>
 </template>
 
 <script>
+import Header from '../public/header.vue'
 export default {
+  components: {
+    Header
+  }
 }
 </script>
-
-<style lang="scss" module>
-  @import '../../css/reset.scss';
-  .home{
-    color: red;
-    font-size: 80px;
-  }
-</style>
