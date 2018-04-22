@@ -3,6 +3,7 @@
     <Header />
     <Slider />
     <Novice />
+    <Borrow />
   </div>
 </template>
 
@@ -10,12 +11,14 @@
 import Header from '../public/header.vue'
 import Slider from "./hslider.vue"
 import Novice from './novice.vue'
+import Borrow from './borrow.vue';
 
 export default {
   components: {
     Header,
     Slider,
-    Novice
+    Novice,
+    Borrow
   }
 }
 </script>
