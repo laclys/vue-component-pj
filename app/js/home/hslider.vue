@@ -11,6 +11,7 @@
     </section>
   </article>
 </template>
+
 <script>
 import Slider from '../core/slider.vue'
 export default {
@@ -63,6 +64,7 @@ export default {
   }
 }
 </script>
+
 <style lang="scss" module >
   @import "../../css/element.scss";
   .slider {
