@@ -6,6 +6,7 @@
     <Borrow />
     <Money />
     <Product />
+    <Car />
   </div>
 </template>
 
@@ -16,6 +17,7 @@ import Novice from './novice.vue'
 import Borrow from './borrow.vue'
 import Money from './money.vue'
 import Product from './product'
+import Car from './car'
 
 export default {
   components: {
@@ -24,7 +26,8 @@ export default {
     Novice,
     Borrow,
     Money,
-    Product
+    Product,
+    Car
   }
 }
 </script>

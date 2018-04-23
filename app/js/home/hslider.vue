@@ -1,5 +1,5 @@
 <template>
-  <article class="">
+  <article>
     <Slider :items="items" :cname="$style.slider"/>
     <section :class="$style.list">
       <div :class="$style.item" v-for="item in enters" :key="item.img" >
