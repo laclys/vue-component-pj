@@ -49,6 +49,7 @@ export default {
       justify-content: space-around;
       img{
         width: 50%;
+        height: 117px * 2;
       }
     }
     .list{
