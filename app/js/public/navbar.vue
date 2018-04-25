@@ -14,19 +14,19 @@
                 </router-link>
             </li>
             <li>
-                <router-link :to="{ name: 'Home'}">
+                <router-link :to="{ name: 'Rent'}">
                     <img src="//img12.360buyimg.com/jrpmobile/jfs/t3343/179/621044750/1484/5af6b11a/580f50e4N005181d0.png?width=66&height=66" alt="">
                     <p>白条</p>
                 </router-link>
             </li>
             <li>
-                <router-link :to="{ name: 'Home'}">
+                <router-link :to="{ name: 'Crowdfunding'}">
                     <img src="//img12.360buyimg.com/jrpmobile/jfs/t3604/98/635506544/2317/443d3a51/580f240aNbee3dcc4.png?width=66&height=66" alt="">
                     <p>众筹</p>
                 </router-link>
             </li>
             <li>
-                <router-link :to="{ name: 'Home'}">
+                <router-link :to="{ name: 'My'}">
                     <img src="//img12.360buyimg.com/jrpmobile/jfs/t3340/68/639059082/2591/800e2d6b/580f51cdN4caf20b2.png?width=66&height=66" alt="">
                     <p>我的</p>
                 </router-link>
