@@ -4,7 +4,8 @@ import Home from "../home/index.vue"
 import Money from "../money/index.vue"
 import Rent from "../rent/index.vue"
 import Crowdfunding from "../crowdfunding/index.vue"
-import My from "../my/index.vue"
+// import My from "../my/index.vue"
+import Dwonload from "../special/dwonload.vue"
 import "../../css/reset.scss"
 import "../../css/router-link.scss"
 
@@ -28,14 +29,19 @@ export default new Router({
       component: Rent,
     },
     {
-      path: "/Crowdfunding",
+      path: "/crowdfunding",
       name: "Crowdfunding",
       component: Crowdfunding,
     },
     {
       path: "/My",
       name: "My",
-      component: My,
+      component: Dwonload,
+    },
+    {
+      path: "/dwonload",
+      name: "Dwonload",
+      component: Dwonload,
     },
   ],
 })
